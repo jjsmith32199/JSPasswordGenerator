@@ -10,3 +10,4 @@ Once all prompts are completed, the user will be presented a randomized password
 
 The deployed application can be used here:
 https://jjsmith32199.github.io/JSPasswordGenerator/
+![2022-12-11 (1)](https://user-images.githubusercontent.com/113246711/206946680-953a072a-17ac-46d6-b98a-59c8157b4292.png)
