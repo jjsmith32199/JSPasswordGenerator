@@ -27,7 +27,7 @@ function checkpassLen() {
   }
   return passwordLen
 }
-function CheckspecChar(){
+function checkSpecChar(){
  let specialChar = prompt('Would you like to include special characters? Type y or n.');
  confirm("You have selected " + specialChar + " for special characters.");
  if (specialChar === 'y') {
@@ -99,7 +99,7 @@ function checkCaselow(){
 }
 // We need to store the choices selected and add them to the index for generation
  function generatePassword(){
- let choiceIndex= [checkpassLen(), CheckspecChar(), checkCaseupper(), checkCaselow(), checknumber()];
+ let choiceIndex= [checkpassLen(), checkSpecChar(), checkCaseupper(), checkCaselow(), checknumber()];
  let characters = "";
  let password = "";
   if (choiceIndex[1]){
