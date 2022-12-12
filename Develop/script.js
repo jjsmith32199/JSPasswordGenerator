@@ -8,7 +8,7 @@ let numbers = ['1234567890'];
  // the variables that make up the password generator also needed to be defined
  // the following functions will present the end user with choice criteria for their password
 function checkpassLen() {
- let passwordLen = parseInt(prompt('How long should we make password? (8-128 characters'));
+ let passwordLen = prompt('How long should we make password? (8-128 characters');
  confirm('You have selected ' + passwordLen + ' characters.');
  if (passwordLen > 128){
  alert('Too many characters selected. Please select a number between 8 and 128.');
